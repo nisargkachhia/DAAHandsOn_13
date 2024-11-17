@@ -2,20 +2,24 @@
 
 ## Graph Algorithms
 
-This repository contains implementations of common graph algorithms in Python, including Topological Sort, Depth-First Search, and Kruskal's algorithm for finding a Minimum Spanning Tree.
+This project implements three graph algorithms:
+1. **Topological Sort**
+2. **Depth-First Search (DFS)**
+3. **Kruskal's Algorithm for Minimum Spanning Tree (MST)**
 
-## Directory Structure
+## File Structure
 
-- `algorithms/`: Contains Python files for each algorithm.
-- `tests/`: Contains unit tests for each algorithm.
-- `examples/`: Contains sample graphs used in tests.
+- `algorithms/`: Contains the implementation of the algorithms.
+- `tests/`: Unit tests for the algorithms.
+- `main.py`: Example usage and integration.
 
-## Setup
+## Usage
 
-1. Clone the repository.
-2. Install `unittest` if not installed (usually included with Python).
-3. Run tests with:
-
+1. Run tests:
    ```bash
-   python -m unittest discover -s tests
+   python -m unittest discover tests/
+   ```
+2. Execute examples:
+   ```bash
+   python main.py
    ```
