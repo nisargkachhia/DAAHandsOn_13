@@ -1,25 +1,15 @@
 # DAAHandsOn_13
 
-## Graph Algorithms
+## Overview
 
-This project implements three graph algorithms:
-1. **Topological Sort**
-2. **Depth-First Search (DFS)**
-3. **Kruskal's Algorithm for Minimum Spanning Tree (MST)**
+This project contains implementations of fundamental graph algorithms:
 
-## File Structure
+- Topological Sort
+- Depth-First Search (DFS)
+- Kruskal's Minimum Spanning Tree Algorithm
 
-- `algorithms/`: Contains the implementation of the algorithms.
-- `tests/`: Unit tests for the algorithms.
-- `main.py`: Example usage and integration.
+### Execute examples
 
-## Usage
-
-1. Run tests:
-   ```bash
-   python -m unittest discover tests/
-   ```
-2. Execute examples:
    ```bash
    python main.py
    ```
